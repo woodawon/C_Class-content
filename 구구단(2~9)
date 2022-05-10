@@ -1,0 +1,17 @@
+#include <stdio.h> 
+
+main() {
+	
+	int k = 2, j;
+	
+	while(k <= 9) {
+		j = 1; // k = 2, j = 1
+		while(j <= 9) {
+			printf("%d * %d = %2d \n", k, j, k * j);
+			j++;
+		}
+		k++;
+	}
+	
+}
+// 2 ~ 9까지 1~9 구구단 값 출력. 
