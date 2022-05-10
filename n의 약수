@@ -1,0 +1,16 @@
+#include <stdio.h> 
+
+main() {
+	
+	int n, a = 1, b;
+	scanf("%d", &n);
+	
+	do {
+		if(n % a == 0) {
+			b = n / a; 
+	printf("%d %d \n", a, b); 
+		}
+		a += 1;
+	} while(a < b);
+	
+}
