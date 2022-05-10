@@ -1,0 +1,15 @@
+#include <stdio.h> 
+
+main() {
+	
+	int tmp, n1 = 7, n2 = 3, sum = 0;
+	if(n1 > n2) {
+		tmp = n1; // tmp = 7
+		n1 = n2; // n1 = 3
+		n2 = tmp; // n2 = tmp = 7
+	}
+	for(n1 = n1;n1 <= n2;n1++) // n1 = 3, 3 < 7
+		sum += n1; // sum = 3 + 4 + 5 + 6 + 7 = 25
+	printf("%d", sum);
+	
+}
