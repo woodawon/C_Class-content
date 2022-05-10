@@ -1,0 +1,14 @@
+#include <stdio.h> 
+
+main() {
+	
+	int s = 0, a, b;
+	scanf("%d", &a);
+	scanf("%d", &b);
+	while(b >= a) {
+		s += a;
+		a += 1;
+	}
+	printf("%2d", s);
+	
+}
