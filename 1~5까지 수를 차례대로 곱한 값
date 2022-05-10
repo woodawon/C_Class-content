@@ -1,0 +1,12 @@
+#include <stdio.h> 
+
+main() {
+	
+	int k, fact = 1;
+	for(k = 1;k <= 5;k++) {
+		fact *= k; // fact = 1 * 2 * 3 * 4 * 5
+	}
+	printf("%d \n", fact);
+	printf("%d", k);
+	
+}
