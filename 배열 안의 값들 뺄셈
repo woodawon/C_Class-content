@@ -10,16 +10,9 @@ main() {
 	for(k = 0;k <= 7;k++) {
 		if(m[k] > a)
 			a = m[k];
-		else if(m[k] > b)
+		else if(m[k] < b)
 			b = m[k];
 	}
 	printf("%d", a - b);
 	
 }
-
-//a = 4, b = 4
-//
-//k = 1, a = 12
-//k = 2, a = 19
-//k = 3, b = 5
-//k = 4, b = 8
