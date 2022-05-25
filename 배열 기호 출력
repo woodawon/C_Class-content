@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+main() {
+	
+	char Sh[] = {"#@&"};
+	int a, b;
+	
+	for(a = 1;a <= 3;a++) {
+		for(b = 1;b <= a;b++) {
+			printf("%c", Sh[a-b]);
+		}
+		printf("\n");
+	}
+	
+}
+
+//a = 4, b = 4
+//
+//#
+//@#
+//&@#
